@@ -1,0 +1,114 @@
+
+h1{
+    text-align:center;
+    font-family: "coolvetica";
+    color:white;
+}
+#button-new{
+    width:70px;
+    height:70px;
+}
+button{
+    border-radius:25px;
+    font-size:34px;
+    background-color:#1b1b1b;
+    color:yellow;
+    border-width:2px;
+    border-color:yellow;
+    border-style: solid;
+
+
+}
+button:hover{
+    cursor:pointer;
+    background-color: yellow;
+    color:#1b1b1b;
+}
+
+hr{
+    color:#1b1b1b;
+}
+.hide{
+    display: none;
+}
+input[type=submit]{
+    font-size:24px;
+    color:yellow;
+    background-color:#1b1b1b;
+    border-color:yellow;
+    border-width: 2px;
+    border-style: solid;
+}
+input[type=submit]:hover{
+    color:#1b1b1b;
+    background-color:yellow;
+    cursor:pointer;
+    border-style: solid;
+}
+.button1{
+    background-color: white;
+    opacity:80%;
+    border-radius: 50px;
+    border: 2px solid black;
+    padding: 14px 40px;
+    font-family: "coolvetica";
+    font-size:25px;
+
+}
+.add{
+    text-align: center;
+}
+p{
+    font-family: "coolvetica";
+    color:white;
+    text-align:center;
+}
+
+img{
+    position: relative;
+/*    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);*/
+    vertical-align:middle;
+       
+}
+.id_card{
+    text-align:center;
+    border:solid 4px white;
+    border-radius:10px;
+    /*background:linear-gradient(90deg,#1b1b1b,#417a7d);*/
+     
+    
+}
+body{
+    background-color: #1b1b1b;
+}
+hr{
+    
+    border-color:#1b1b1b;
+    width: 0px;
+}
+h2{
+    font-size: 25px;
+    font-family: "coolvetica";
+    color:white;
+    text-align:center;
+}
+
+img{
+    width:100px;
+    height:auto;
+}
+
+
+@font-face{
+    font-family: "coolvetica";
+    src:url("/font/coolvetica.ttf");
+}
+
+@media only screen and (min-width : 600px){
+    .id_card{
+        width:600px;
+        margin: 0 auto;
+    }
+}
